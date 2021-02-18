@@ -1,0 +1,29 @@
+button.tertiary {
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    color: #343C4C;
+    cursor: pointer;
+    height: 32px;
+}
+
+button.tertiary:hover,
+button.tertiary:focus {
+    color: #0BA6FF;
+    height: 32px;
+}
+
+button.tertiary.active {
+    background: #0078BD;
+    border-radius: 4px;
+    padding: 6px;
+    color: #FFFFFF;
+}
+
+button.tertiary.active:hover,
+button.tertiary.active:focus {
+    background: #0BA6FF;
+}

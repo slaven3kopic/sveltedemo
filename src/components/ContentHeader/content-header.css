@@ -1,0 +1,46 @@
+.content-header {
+    height: 48px;
+    width: 100%;
+    background: #F2F4FA;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.content-header .page {
+    align-items: center;
+    display: flex;
+}
+
+.content-header .page-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.content-header .page-icon svg {
+    height: 24px;
+    width: 24px;
+}
+
+.content-header .page-name {
+    margin-left: 9px;
+    line-height: 24px;
+    color: #343C4C;
+    font-size: 20px;
+}
+
+.actions {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.views {
+    display: flex;
+    align-items: center;
+}
+
+.views .button.tertiary {
+    margin: 0 5px;
+}
