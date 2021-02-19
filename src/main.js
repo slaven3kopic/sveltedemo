@@ -1,7 +1,10 @@
-import App from './App.svelte';
+import Button from './components/Button/Button.svelte';
+import ContentHeader from './components/ContentHeader/ContentHeader.svelte';
 
-const app = new App({
-    target: document.body
-});
+window.Button = function(options) {
+    return new Button(options);
+};
 
-export default app;
+window.ContentHeader = function(options) {
+    return new ContentHeader(options);
+};

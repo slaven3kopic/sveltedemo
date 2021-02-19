@@ -1,5 +1,4 @@
 import ContentHeader from './../components/ContentHeader/ContentHeader.svelte';
-import { home } from 'svelte-awesome/icons';
 
 export default {
     title: 'Example/ContentHeader',
@@ -10,22 +9,26 @@ const Template = ({ args }) => ({
     Component: ContentHeader,
     props: {
         pageName: 'Home Page',
-        pageIcon: home,
+        pageIcon: 'fa fa-home',
         views: [{
                 name: 'View',
-                active: true
+                active: true,
+                url: './'
             },
             {
                 name: 'Properties',
-                active: false
+                active: false,
+                url: './'
             },
             {
                 name: 'Layouts',
-                active: false
+                active: false,
+                url: './'
             },
             {
                 name: 'Versions',
-                active: false
+                active: false,
+                url: './'
             }
         ]
     }

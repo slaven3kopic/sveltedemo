@@ -1,5 +1,4 @@
 import Button from './../components/Button/Button.svelte';
-import { ellipsisH } from 'svelte-awesome/icons';
 
 export default {
     title: 'Example/Button',
@@ -19,6 +18,6 @@ export const IconButton = () => ({
     props: {
         label: '',
         type: 'icon',
-        icon: ellipsisH
+        icon: 'fa fa-home'
     }
 });

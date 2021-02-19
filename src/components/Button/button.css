@@ -6,6 +6,7 @@ button.btn {
     color: #343C4C;
     cursor: pointer;
     height: 32px;
+    margin-bottom: 0;
 }
 
 button.btn.tertiary {
@@ -37,5 +38,3 @@ button.btn.active:hover,
 button.btn.active:focus {
     background: #0BA6FF;
 }
-
-button.btn.icon {}
