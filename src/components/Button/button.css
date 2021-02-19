@@ -1,4 +1,14 @@
-button.tertiary {
+button.btn {
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    color: #343C4C;
+    cursor: pointer;
+    height: 32px;
+}
+
+button.btn.tertiary {
     line-height: 20px;
     font-size: 14px;
     text-align: center;
@@ -10,20 +20,22 @@ button.tertiary {
     height: 32px;
 }
 
-button.tertiary:hover,
-button.tertiary:focus {
+button.btn:hover,
+button.btn:focus {
     color: #0BA6FF;
     height: 32px;
 }
 
-button.tertiary.active {
+button.btn.active {
     background: #0078BD;
     border-radius: 4px;
     padding: 6px;
     color: #FFFFFF;
 }
 
-button.tertiary.active:hover,
-button.tertiary.active:focus {
+button.btn.active:hover,
+button.btn.active:focus {
     background: #0BA6FF;
 }
+
+button.btn.icon {}

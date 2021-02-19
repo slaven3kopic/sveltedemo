@@ -1,12 +1,12 @@
 import Button from './../components/Button/Button.svelte';
-import { home } from 'svelte-awesome/icons';
+import { ellipsisH } from 'svelte-awesome/icons';
 
 export default {
     title: 'Example/Button',
     component: Button,
 };
 
-const Template = ({ args }) => ({
+export const TertiaryButton = () => ({
     Component: Button,
     props: {
         label: 'Versions',
@@ -14,4 +14,11 @@ const Template = ({ args }) => ({
     }
 });
 
-export const Tertiary = Template.bind({});
+export const IconButton = () => ({
+    Component: Button,
+    props: {
+        label: '',
+        type: 'icon',
+        icon: ellipsisH
+    }
+});

@@ -6,5 +6,4 @@
 	<h3>Content Header</h3>
 </main>
 
-<style>
-</style>
+<style></style>

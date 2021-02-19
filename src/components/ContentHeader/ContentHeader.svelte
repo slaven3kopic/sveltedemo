@@ -2,6 +2,8 @@
     import './content-header.css';
     import Icon from 'svelte-awesome';
     import Button from '../Button/Button.svelte';
+    import { ellipsisH } from 'svelte-awesome/icons';
+
 
     export let pageName;
     export let pageIcon;
@@ -15,9 +17,11 @@
     </span>
     <div class="actions">
         <div class="views">
-            {#each views as view, i}
+            <span class="views-title">Views:</span>
+            {#each views as view}
                 <Button type="tertiary" active={view.active} label={view.name} />
             {/each}
         </div>
+        <Button cssClass="shortcuts-btn" type="icon" active={false} icon={ellipsisH} />
     </div>
 </div>
